@@ -1,0 +1,207 @@
+body{
+	background-color: #FFF8DC;
+	
+}
+body, html{
+	overflow-x: hidden;
+}
+.header{
+	width: 100%;
+	height: 90px;
+	display: block;
+	background-color: #E9EBF5;
+}
+
+.inner-header{
+	width: 1000px;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+.logo-container{
+	 height: 100%;
+	 display: table;
+	 float: left;
+}
+
+.logo-container img{
+	height: 100%;
+	width:90px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.navigator{
+	float: right;
+	height: 100%;
+}
+	
+.navigator a{
+	height:100%;
+	display: table;
+	float: left;
+	padding: 30px 20px;
+	text-decoration: none;
+	font-family: 'poppins', sans-serif;
+	color: #696969;
+	font-size: 18px;
+	letter-spacing: 0.5px;
+}	
+a:after {
+	content: "";
+	position: absolute;
+	background-color: #4682B4;
+	height: 3px;
+	width: 0;
+	left: 0;
+	bottom: -10px;
+	transition: 0.3s;
+}
+a:hover{
+	color: #4682B4;
+}
+
+a:hover:after{
+	width: 100%;
+
+}
+
+.navigator a:last-child{
+	paddle-right: 0;
+}
+
+
+//slideshow
+section{
+	margin: 15px 17px;
+}
+.container{
+	width: 120vmin;
+    position: absolute;
+	transform: translate(-50%,-50%);
+	top: 60%;
+	left: 50%;
+	overflow: hidden;
+	border: 15px solid #F5F5F5;
+	border-radius: 8px;
+	box-shadow: 10px 25px 30px rgba(30,30,200,0.3);
+}
+
+.slider-wrapper{
+	position:relative;
+	max-height: 800px;
+	margin: 0 auto;
+}
+.slider{
+	display: flex;
+	aspect-ratio: 16\9;
+	overflow-x: auto;
+	scroll-snap-type: x mandatory;
+	scroll-behaviour: smooth;
+}
+
+.slider img{
+	flex: 1 0 100%;
+	scroll-snap-align: start;
+	object-fit: cover;
+}
+
+.slider-nav{
+	display: flex;
+	column-gap: 15px;
+	position: absolute;
+	bottom: 18px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1;
+}
+
+.slider-nav {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #FFF;
+	opacity: 0.75;
+	transition: opacity ease 250ms;
+	
+}slideshow-nav a:hover{
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+///description///
+
+.pic1{
+	float: right;
+	
+}
+
+.Description{
+	position: absolute;
+	width: 80%;
+	left: 7.5%;
+	top: 110%;
+	background-color: #B0E0E6;
+	padding: 30px;
+	border: 10px;
+	border-radius: 10px;
+}	
+
+
+.soutit{
+	text-decoration: none;
+	font-family: 'poppins', sans-serif;
+	color: #696969;
+	font-size: 18px;
+	letter-spacing: 0.5px;
+}
+
+
+.description p{
+	text-decoration: none;
+	font-family: 'poppins', !!!;
+	font-size: 14px;
+	letter-spacing: 0.5px;
+}
+
+
+
+
+
+.pic2{
+	float: right;
+}
+.athletes{
+	position: absolute;
+	width: 80%;
+	left: 7.5%;
+	top: 160%;
+	background-color: #B0E0E6;
+	padding: 30px;
+	border: 10px;
+	border-radius: 10px;
+}
+
+.soutit2{
+	text-decoration: none;
+	font-family: 'poppins', sans-serif;
+	color: #696969;
+	font-size: 18px;
+	letter-spacing: 0.5px;
+}
+
+
+
+
